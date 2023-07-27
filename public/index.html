@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="CalculatorMain">
+        <section class="heading">
+            <div>
+                <a class="calcIcon" href="#"><i class="fa fa-calculator"></i></a>
+            </div>
+            <div>
+                <p>Calculatrice <sup>Standard</sup></p>
+            </div>    
+        </section>
+        <section class="semiHeading">
+            <div>
+                Standard <a href="#">BY Chadyy</a>
+            </div>
+            <div>
+                <button onclick="showHistory()" id="historyButt">history</button>
+            </div>
+        </section>
+        <section class="resultLabel">
+            <div class="calcAbc">      
+            </div>
+            <div class="calcResult">
+            </div>
+        </section>
+        <section class="buttonsLabel">
+        </section>
+        <section class="historyContainer-hiden">
+            <div class="historyHeading">
+                <button onclick="deleteHistory()">Delete</button>
+            </div>
+            <div class="history">
+            </div>
+        </section>
+    </section>
+    <script src="../src/index.js"></script>
+</body>
+</html>
